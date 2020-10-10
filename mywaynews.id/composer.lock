@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dbc3cf9da98855c4d45d92c8cf901057",
+    "content-hash": "871624bc077371366bea8f1798cf9dbb",
     "packages": [
         {
             "name": "composer/installers",
@@ -718,26 +718,6 @@
             "homepage": "https://wordpress.org/plugins/jetpack/"
         },
         {
-            "name": "wpackagist-plugin/shortpixel-adaptive-images",
-            "version": "2.0.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/shortpixel-adaptive-images/",
-                "reference": "tags/2.0.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/shortpixel-adaptive-images.2.0.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/shortpixel-adaptive-images/"
-        },
-        {
             "name": "wpackagist-plugin/weglot",
             "version": "3.1.8",
             "source": {
@@ -926,81 +906,6 @@
                 "issues": "https://github.com/wpindi/soil-activate/issues"
             },
             "time": "2020-06-04T18:31:14+00:00"
-        },
-        {
-            "name": "wpindi/wp-retina-2x-pro",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:wpindi/wp-retina-2x-pro.git",
-                "reference": "3eac1dcb8bf2bfbebaf7bcddcff413fcc840aeb0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wpindi/wp-retina-2x-pro/zipball/3eac1dcb8bf2bfbebaf7bcddcff413fcc840aeb0",
-                "reference": "3eac1dcb8bf2bfbebaf7bcddcff413fcc840aeb0",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/wpindi/wp-retina-2x-pro/tree/master",
-                "issues": "https://github.com/wpindi/wp-retina-2x-pro/issues"
-            },
-            "time": "2020-06-01T23:19:42+00:00"
-        },
-        {
-            "name": "wpindi/wp-rocket",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:wpindi/wp-rocket.git",
-                "reference": "8848d11b53f70c643e26699aa820759f341a0320"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wpindi/wp-rocket/zipball/8848d11b53f70c643e26699aa820759f341a0320",
-                "reference": "8848d11b53f70c643e26699aa820759f341a0320",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/wpindi/wp-rocket/tree/master",
-                "issues": "https://github.com/wpindi/wp-rocket/issues"
-            },
-            "time": "2020-07-19T01:10:27+00:00"
-        },
-        {
-            "name": "wpindi/wp-rocket-no-cache",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:wpindi/wp-rocket-no-cache.git",
-                "reference": "4ad67902ac874210040b0400bd3e347d150f6e8d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wpindi/wp-rocket-no-cache/zipball/4ad67902ac874210040b0400bd3e347d150f6e8d",
-                "reference": "4ad67902ac874210040b0400bd3e347d150f6e8d",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "keywords": [
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/wpindi/wp-rocket-no-cache/tree/master",
-                "issues": "https://github.com/wpindi/wp-rocket-no-cache/issues"
-            },
-            "time": "2020-06-06T11:42:05+00:00"
         }
     ],
     "packages-dev": [

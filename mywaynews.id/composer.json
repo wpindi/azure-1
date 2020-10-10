@@ -47,23 +47,11 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:wpindi/wp-retina-2x-pro.git"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:wpindi/chrome-theme-color-mywaynews-id.git"
     },
     {
       "type": "vcs",
       "url": "git@github.com:wpindi/soil-activate.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:wpindi/wp-rocket.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:wpindi/wp-rocket-no-cache.git"
     }
   ],
   "require": {
@@ -80,17 +68,13 @@
     "wpackagist-plugin/weglot":"3.1.8",
     "wpackagist-plugin/jetpack":"8.7.1",
     "wpackagist-plugin/addthis-all":"3.2.6",
-    "wpackagist-plugin/shortpixel-adaptive-images":"2.0.3",
     "wpindi/elementor-pro": "2.8.5",
     "wpindi/jet-engine": "master",
     "wpindi/jet-blog": "master",
     "wpindi/jet-search": "master",
-    "wpindi/wp-retina-2x-pro": "master",
     "wpindi/chrome-theme-color-mywaynews-id": "master",
     "wpindi/soil-activate": "master",
-    "roots/soil": "^3.9",
-    "wpindi/wp-rocket": "master",
-    "wpindi/wp-rocket-no-cache": "master"
+    "roots/soil": "^3.9"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.6",
