@@ -1,0 +1,11 @@
+/* TEAM */
+Developer: WPIndi
+Site: https://wpindi.com
+Location: Yogyakarta, Indonesia.
+
+/* THANKS */
+Action: Y.C.Cahyono
+Location: Nganjuk, Indonesia.
+			
+/* SITE */                    
+Components: Wordpress, etc.

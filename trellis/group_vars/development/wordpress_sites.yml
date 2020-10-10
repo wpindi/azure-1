@@ -1,0 +1,47 @@
+# Documentation: https://roots.io/trellis/docs/local-development-setup/
+# `wordpress_sites` options: https://roots.io/trellis/docs/wordpress-sites
+# Define accompanying passwords/secrets in group_vars/development/vault.yml
+
+wordpress_sites:
+  wpindi.com:
+    site_hosts:
+      - canonical: wpindi.test
+        redirects:
+          - www.wpindi.test
+    local_path: ../wpindi.com # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: admin@wpindi.test
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false
+  jtrans.web.id:
+    site_hosts:
+      - canonical: jtrans.test
+        redirects:
+          - www.jtrans.test
+    local_path: ../jtrans.web.id # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: admin@jtrans.test
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false
+  mywaynews.id:
+    site_hosts:
+      - canonical: mywaynews.test
+        redirects:
+          - www.mywaynews.test
+    local_path: ../mywaynews.id # path targeting local Bedrock site directory (relative to Ansible root)
+    admin_email: admin@mywaynews.test
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false

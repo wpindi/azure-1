@@ -1,0 +1,8 @@
+path: web/wp
+
+@development:
+  ssh: vagrant@mywaynews.test/srv/www/mywaynews.id/current
+@staging:
+  ssh: web@staging.example.com/srv/www/example.com/current
+@production:
+  ssh: web@mywaynews.id/srv/www/mywaynews.id/current

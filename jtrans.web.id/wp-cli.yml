@@ -1,0 +1,8 @@
+path: web/wp
+
+@development:
+  ssh: vagrant@jtrans.test/srv/www/jtrans.web.id/current
+@staging:
+  ssh: web@staging.example.com/srv/www/example.com/current
+@production:
+  ssh: web@jtrans.web.id/srv/www/jtrans.web.id/current

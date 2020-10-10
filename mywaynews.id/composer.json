@@ -1,0 +1,121 @@
+{
+  "name": "roots/bedrock",
+  "type": "project",
+  "license": "MIT",
+  "description": "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure",
+  "homepage": "https://roots.io/bedrock/",
+  "authors": [
+    {
+      "name": "Scott Walkinshaw",
+      "email": "scott.walkinshaw@gmail.com",
+      "homepage": "https://github.com/swalkinshaw"
+    },
+    {
+      "name": "Ben Word",
+      "email": "ben@benword.com",
+      "homepage": "https://github.com/retlehs"
+    }
+  ],
+  "keywords": [
+    "bedrock", "composer", "roots", "wordpress", "wp", "wp-config"
+  ],
+  "support": {
+    "issues": "https://github.com/roots/bedrock/issues",
+    "forum": "https://discourse.roots.io/category/bedrock"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org",
+      "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:wpindi/elementor-pro.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:wpindi/jet-engine.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:wpindi/jet-blog.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:wpindi/jet-search.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:wpindi/wp-retina-2x-pro.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:wpindi/chrome-theme-color-mywaynews-id.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:wpindi/soil-activate.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:wpindi/wp-rocket.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:wpindi/wp-rocket-no-cache.git"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "composer/installers": "^1.8",
+    "vlucas/phpdotenv": "^4.1.8",
+    "oscarotero/env": "^2.1",
+    "roots/bedrock-autoloader": "^1.0",
+    "roots/wordpress": "5.5.1",
+    "roots/wp-config": "1.0.0",
+    "roots/wp-password-bcrypt": "1.0.0",
+    "wpackagist-theme/hello-elementor":"2.3.0",
+    "wpackagist-plugin/elementor":"2.9.13",
+    "wpackagist-plugin/weglot":"3.1.8",
+    "wpackagist-plugin/jetpack":"8.7.1",
+    "wpackagist-plugin/addthis-all":"3.2.6",
+    "wpackagist-plugin/shortpixel-adaptive-images":"2.0.3",
+    "wpindi/elementor-pro": "2.8.5",
+    "wpindi/jet-engine": "master",
+    "wpindi/jet-blog": "master",
+    "wpindi/jet-search": "master",
+    "wpindi/wp-retina-2x-pro": "master",
+    "wpindi/chrome-theme-color-mywaynews-id": "master",
+    "wpindi/soil-activate": "master",
+    "roots/soil": "^3.9",
+    "wpindi/wp-rocket": "master",
+    "wpindi/wp-rocket-no-cache": "master"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.5.6",
+    "roave/security-advisories": "dev-master"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "installer-paths": {
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "web/wp"
+  },
+  "scripts": {
+    "post-root-package-install": [
+      "php -r \"copy('.env.example', '.env');\""
+    ],
+    "test": [
+      "phpcs"
+    ]
+  }
+}
