@@ -5,7 +5,7 @@
 # Copyright (c) Ben Word
 
 DEVDIR="web/app/uploads/"
-DEVSITE="https://mywaynews.test"
+DEVSITE="http://mywaynews.test"
 
 PRODDIR="web@mywaynews.id:/srv/www/mywaynews.id/shared/uploads/"
 PRODSITE="https://mywaynews.id"

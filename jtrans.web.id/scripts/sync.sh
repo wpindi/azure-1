@@ -8,7 +8,7 @@ DEVDIR="web/app/uploads/"
 DEVSITE="https://jtrans.test"
 
 PRODDIR="web@jtrans.web.id:/srv/www/jtrans.web.id/shared/uploads/"
-PRODSITE="https://jtrans.co"
+PRODSITE="https://jtrans.web.id"
 
 STAGDIR="web@staging.example.com:/srv/www/example/shared/uploads/"
 STAGSITE="https://staging.example.com"

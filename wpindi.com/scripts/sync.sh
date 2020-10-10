@@ -5,7 +5,7 @@
 # Copyright (c) Ben Word
 
 DEVDIR="web/app/uploads/"
-DEVSITE="https://wpindi.test"
+DEVSITE="http://wpindi.test"
 
 PRODDIR="web@wpindi.com:/srv/www/wpindi.com/shared/uploads/"
 PRODSITE="https://wpindi.com"
