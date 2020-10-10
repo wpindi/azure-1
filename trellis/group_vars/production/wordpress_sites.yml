@@ -11,7 +11,7 @@ wordpress_sites:
     local_path: ../wpindi.com # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:wpindi/azure-1.git # replace with your Git repo URL
     repo_subtree_path: wpindi.com # relative path to your Bedrock/WP directory in your repo
-    branch: master
+    branch: main
     multisite:
       enabled: false
     ssl:
@@ -27,7 +27,7 @@ wordpress_sites:
     local_path: ../jtrans.web.id # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:wpindi/azure-1.git # replace with your Git repo URL
     repo_subtree_path: jtrans.web.id # relative path to your Bedrock/WP directory in your repo
-    branch: master
+    branch: main
     multisite:
       enabled: false
     ssl:
@@ -43,7 +43,7 @@ wordpress_sites:
     local_path: ../mywaynews.id # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:wpindi/azure-1.git # replace with your Git repo URL
     repo_subtree_path: mywaynews.id # relative path to your Bedrock/WP directory in your repo
-    branch: master
+    branch: main
     multisite:
       enabled: false
     ssl:
